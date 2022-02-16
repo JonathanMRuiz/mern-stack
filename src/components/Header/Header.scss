@@ -1,0 +1,29 @@
+@import '../variables.scss';
+.header{
+    margin-top:60px;
+    
+    .headerTitle{
+        display:flex;
+        flex-direction: column;
+        align-items:center;
+        color:red;
+        .headerSm{
+           position:absolute;
+           top:18%;
+           font-size: 20px; 
+        }
+        .headerXl{
+            position:absolute;
+            top:20%;
+            font-size: 120px; 
+         }
+        
+        .headerImg{
+            height:450px;
+            width:100%;
+            margin-top:80px;
+            object-fit:cover;
+        }
+    }
+
+}
